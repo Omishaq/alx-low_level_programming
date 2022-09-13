@@ -4,7 +4,7 @@
  * main - program to print putchar
  * int should return an int
  */
-int main(void);
+int main(void)
 {
 	putchar('_');
 		putchar('p');
