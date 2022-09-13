@@ -6,7 +6,7 @@
  * Return: On success 0.
  * on error, -1 is returned, and errno is set appropriately.
  */
-int main(void)
+int main(void);
 {
 	putchar('_');
 		putchar('p');
@@ -16,7 +16,7 @@ int main(void)
 		putchar('h');
 		putchar('a');
 		putchar('r');
-		putchar('\n');
+		putchar ('\n');
 		return(0);
 
 }
