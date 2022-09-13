@@ -1,10 +1,8 @@
 #include <stdio.h>
 
 /**
- * _putchar - writes the character c to stdout
- * @c: the character to print
- * Return: On success 0.
- * on error, -1 is returned, and errno is set appropriately.
+ * main - program to print putchar
+ * int should return an int
  */
 int main(void);
 {
@@ -16,7 +14,8 @@ int main(void);
 		putchar('h');
 		putchar('a');
 		putchar('r');
-		putchar ('\n');
+		putchar('\n');
+
 		return(0);
 
 }
