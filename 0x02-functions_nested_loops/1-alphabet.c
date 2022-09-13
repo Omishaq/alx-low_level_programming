@@ -1,12 +1,21 @@
 #include "main.h"
 
 /**
- *  * main - check the code
- *   *
- *    * Return: Always 0.
- *     */
-int main(void)
+ * print_alphabet - Entry point
+ *   
+ * Description: program that prints the alphabets
+ * followed by a new line
+ *      
+ * Return: Exit int function with an int 0
+ */
+void print_alphabet(void)
 {
-	    print_alphabet();
-	        return (0);
+	int aj;
+
+	for (aj = 'a'; aj <= 'z'; aj++)
+	{
+									_putchar(aj);
+								}
+	_putchar('\n');
+
 }
