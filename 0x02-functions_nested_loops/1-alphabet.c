@@ -1,4 +1,4 @@
-#include "main.h"
+#includ "main.h"
 
 /**
  * print_alphabet - Entry point
@@ -14,7 +14,7 @@ void print_alphabet(void)
 
 	for (aj = 'a'; aj <= 'z'; aj++)
 	{
-									_putchar(aj);
+								_putchar(aj);
 								}
 	_putchar('\n');
 
